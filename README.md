@@ -5,6 +5,7 @@ A relational SQL database project focused on **data integrity, constraints, and 
 ---
 
 ## 🗂 Project Structure
+```
 relational-database-sql-challenge/
 │
 ├─ transact-sql-challenge/
@@ -23,7 +24,7 @@ relational-database-sql-challenge/
 ├─ create_indexes.sql # SQL script to create indexes
 ├─ integrity_checks.sql # SQL validation queries
 └─ structural_queries.sql # Sample queries for analysis
-
+````
 ---
 
 ## ⚙ Technologies
