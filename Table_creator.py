@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS OrderItems(
     UnitPrice REAL NOT NULL CHECK (UnitPrice > 0),
     DiscountRate REAL NOT NULL CHECK (DiscountRate >= 0 AND DiscountRate <= 1),
     LineTotal REAL NOT NULL CHECK (LineTotal >= 0),
-    UNIQUE (OrderID, ProductID),
+    -- UNIQUE (OrderID, ProductID),
     
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
